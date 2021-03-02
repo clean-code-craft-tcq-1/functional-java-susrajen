@@ -1,6 +1,6 @@
 package vitals;
 
-public class BMS {
+public class Main {
     static boolean checkIfBatteryIsOk(float temperature, float stateOfCharge, float chargeRate) {
     	if(checkIfBatteryTemperatureIsLow(temperature) && checkIfBatteryTemperatureIsHigh(temperature) && 
     	checkIfStateOfChargeOfBatteryIsHigh(stateOfCharge) && checkIfStateOfChargeOfBatteryIsLow(stateOfCharge)
