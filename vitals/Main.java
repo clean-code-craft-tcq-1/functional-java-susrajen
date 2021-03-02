@@ -1,6 +1,6 @@
 package vitals;
 
-public class BMS {
+public class Main {
        
     static boolean checkBatteryStatus(Battery battery) {
     	battery.checkBatteryStatus(battery, BatteryStatusChecker::checkIfBatteryTemperatureIsHigh)
